@@ -14,7 +14,7 @@
   } catch (error) {
     logger('warn', ['index', 'no', 'documents-done', 'to be found'])
   }
-  while (documents.lenght > 0) {
+  while (documents.length > 0) {
     await sleep(1000)
     logger('info', ['index', 'got', documents.length, 'documents left'])
     const document = documents.pop()
