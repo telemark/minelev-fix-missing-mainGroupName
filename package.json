@@ -1,0 +1,38 @@
+{
+  "name": "minelev-fix-missing-maingroupname",
+  "version": "1.0.0",
+  "description": "Tool for adding studentMainGroupName to documents where it is missing",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "standard && npm audit",
+    "documents:count": "node utils/count-documents",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/minelev-fix-missing-mainGroupName.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telemark/minelev-fix-missing-mainGroupName/issues"
+  },
+  "homepage": "https://github.com/telemark/minelev-fix-missing-mainGroupName#readme",
+  "engines": {
+    "node": ">=10.17.0"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "dotenv": "8.2.0",
+    "jsonwebtoken": "8.5.1",
+    "mongodb": "3.4.0"
+  },
+  "devDependencies": {
+    "standard": "14.3.1"
+  }
+}
