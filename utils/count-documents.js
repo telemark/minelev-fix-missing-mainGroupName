@@ -1,7 +1,7 @@
 (async () => {
   require('dotenv').config()
   const mongo = require('../lib/mongo')
-  const logger = require('../lib/logger') 
+  const logger = require('../lib/logger')
   const db = await mongo()
   const logs = db.collection(process.env.MONGODB_COLLECTION)
   const query = {

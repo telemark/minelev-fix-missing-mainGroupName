@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "standard && npm audit",
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
     "documents:count": "node utils/count-documents.js",
     "documents:collect": "node utils/collect-documents.js",
     "standard-fix": "standard --fix",
@@ -34,6 +35,7 @@
     "mongodb": "3.4.0"
   },
   "devDependencies": {
+    "ava": "2.4.0",
     "standard": "14.3.1"
   }
 }
