@@ -26,6 +26,14 @@ Returns the number of documents missing studentMainGroupName
 $ npm run documents:count
 ```
 
+### documents:collect
+
+Saves an array of all documents to be updated to disc
+
+```
+$ npm run documents:collect
+```
+
 # Licence
 
 [MIT](LICENSE)

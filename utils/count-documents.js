@@ -9,7 +9,7 @@
   }
 
   const counts = await logs.countDocuments(query)
-  logger('info', ['utils', 'count-couments', 'total', counts, 'documents'])
+  logger('info', ['utils', 'count-douments', 'total', counts, 'documents'])
 
   process.exit(0)
 })()

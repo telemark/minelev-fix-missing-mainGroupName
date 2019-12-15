@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "standard && npm audit",
-    "documents:count": "node utils/count-documents",
+    "documents:count": "node utils/count-documents.js",
+    "documents:collect": "node utils/collect-documents.js",
     "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
