@@ -34,6 +34,16 @@ Saves an array of all documents to be updated to disc
 $ npm run documents:collect
 ```
 
+### start
+
+Updates missing documents with mainGroupName from student.
+
+Run this **after** `documents:collect` 
+
+```
+$ npm start
+```
+
 # Licence
 
 [MIT](LICENSE)
