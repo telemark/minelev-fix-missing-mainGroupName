@@ -9,6 +9,7 @@
   "scripts": {
     "test": "standard && npm audit && ava",
     "test-offline": "standard && ava",
+    "start": "node index.js",
     "documents:count": "node utils/count-documents.js",
     "documents:collect": "node utils/collect-documents.js",
     "standard-fix": "standard --fix",
