@@ -47,7 +47,7 @@
       }
     } catch (error) {
       logger('error', ['index', 'document', _id, 'student', student, 'teacher', teacher, 'lookup student', error])
-      documentsError.push({ document, success: false, error: error })
+      documentsError.push({ document, success: false, error: error.message })
       await writeFile('data/documents-error.json', JSON.stringify(documentsError, null, 2), 'utf-8')
     }
   }
