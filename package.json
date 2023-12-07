@@ -33,7 +33,7 @@
     "axios": "0.19.0",
     "dotenv": "8.2.0",
     "jsonwebtoken": "8.5.1",
-    "mongodb": "3.4.1",
+    "mongodb": "4.17.2",
     "then-sleep": "1.0.1"
   },
   "devDependencies": {
